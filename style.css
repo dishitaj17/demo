@@ -1,0 +1,163 @@
+#banner_button{
+    background-color: #f40565;
+    margin: 0 auto !important;
+    
+}
+.product{
+    background-color: #f40565;
+    
+}
+.product h1{
+    color: #f5e80c;
+    font-size :32px; 
+}
+.college a{
+    text-decoration: none;
+    color:#6800c7bf ;
+    display: block;
+    font-size: 21px;
+}
+.college .card{
+   border: #6800c7bf 1px solid;
+   
+}
+#nav a, i{
+    color:#6800c7bf;
+}
+#nav i{
+    -webkit-text-stroke: 0.5px;
+}
+footer{
+    background-color: #6800c7;
+    color: white;
+    height: 600px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+    font-size: 17px;
+}
+footer li{
+    padding-bottom: 10px;
+    list-style: none;
+}
+footer ul{
+    padding: 0 !important;
+}
+footer i{
+    color: white;
+    -webkit-text-stroke: 0.5px;
+}
+footer .contact p{
+    padding-bottom: 200px;
+}
+.contact1{
+    color: #6800c7;
+}
+.product .card{
+    width: 250px !important;
+}
+.card a{
+    color: #6800c7;
+    font-weight: 500;
+    font-size: 16px;
+}
+.card p{
+    color: #6800c7;
+    font-size: 18px;
+    font-weight: 100;
+}
+.card .price{
+    text-decoration: line-through;
+    font-weight: 100;
+    font-size: 17px;
+}
+.subscribe{
+    color: #6800c7;
+    background-color: #f7d6d0;
+    border-top: #6800c7 3px solid;
+}
+.subscribe .form-control{
+    line-height: 3.5;
+    border: #6800c7 2px solid;
+    border-radius: 1.25rem !important;
+}
+#nav .carousel {
+    color: #6800c7;
+    border: gray 1px solid;
+}
+#nav .carousel button span{
+    color: #6800c7 !important;
+}
+#nav{
+    background-color: white;
+}
+.product .card1{
+    margin:1rem  10rem !important;
+}
+.product .card{
+    border: #6800c7 2px solid;
+    border-radius: 25px;
+}
+.product button{
+    background-color: #f5e80c;
+    border: #6800c7 2PX solid;
+    border-radius: 25px;
+    padding: 17px 35px;
+}
+.contact_form{
+    width: 50%;
+    margin: 0 auto;
+}
+.contact_form input{
+    border: #6800c7 1px solid;
+}
+.contact_form button{
+    background-color: #f40565;
+    padding: 10px 24px;
+}
+.contact_form a{
+    color: #f5e80c;
+    text-decoration: none;
+}
+.subscribe .email{
+    width: 50%;
+    margin: 0 auto;
+}
+.testimonial form i{
+    color: darkgreen;
+    font-size: 16px;
+}
+.testimonial p{
+    color: #6800c7;
+    font-weight: 100;
+}
+.testimonial_heading i{
+    color: darkgreen;
+}
+.testimonial_heading h3{
+    color: #6800c7;
+}
+
+@media screen and (min-device-width: 300px) and (max-device-width: 768px) { 
+    .product .card1{
+        margin:2rem  4rem !important;
+    }
+    .contact_form{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .navbar-toggler{
+        background-color: black !important;
+    }
+    footer{
+        height: 850px;
+    }
+    footer .contact p{
+        padding-bottom: 40px;
+    }
+    .subscribe .email{
+        width: 100%;
+    }
+}
